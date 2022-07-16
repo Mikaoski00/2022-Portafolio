@@ -12,6 +12,6 @@ while (j <= b) {
   c += 1;
   j++;
 }
-j=0;
+j = 0;
 console.log(c);
 /*Fin del codigo*/
