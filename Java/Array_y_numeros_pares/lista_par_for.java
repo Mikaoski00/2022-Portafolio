@@ -1,3 +1,4 @@
+/*Inicio del codigo*/
 package Java.Array_y_numeros_pares;
 
 public class lista_par_for {
@@ -18,3 +19,4 @@ public class lista_par_for {
         System.out.println("Duracion: " + ((endTime - startTime) / 1e6) + "ms");
     }
 }
+/*Fin del codigo*/

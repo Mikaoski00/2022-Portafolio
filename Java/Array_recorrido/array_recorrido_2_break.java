@@ -1,7 +1,7 @@
 /*Inicio del codigo*/
-package Java.Array_y_numeros_pares;
+package Java.Array_recorrido;
 
-public class lista_par_while_break {
+public class array_recorrido_2_break {
     public static void main(String[] args) {
         long startTime = System.nanoTime();
         int[] c = new int[31];
@@ -10,15 +10,13 @@ public class lista_par_while_break {
             c[k] = k;
             k++;
             if (k == c.length) {
+                k = 0;
                 break;
             }
         }
-        k = 0;
         while (true) {
-            if (c[k] % 2 == 0) {
-                System.out.print(c[k]);
-                System.out.print(" ");
-            }
+            System.out.print(c[k]);
+            System.out.print(" ");
             k++;
             if (k == c.length) {
                 break;
