@@ -5,7 +5,6 @@ let k = 1;
 while (true) {
   a -= 1;
   if (k == b) {
-    k = 0;
     break;
   }
   k++;
